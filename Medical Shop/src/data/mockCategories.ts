@@ -1,0 +1,68 @@
+import { CategoryInfo } from '../types/medicine';
+
+export const mockCategories: CategoryInfo[] = [
+  {
+    id: 'Cardiology',
+    name: 'Cardiology & Heart Care',
+    icon: 'HeartPulse',
+    count: 24,
+    description: 'Hypertension, cholesterol, heart rhythm, and cardiovascular wellness medications.',
+    color: 'from-rose-500/10 to-red-500/20 text-rose-600 border-rose-200',
+  },
+  {
+    id: 'Antibiotics',
+    name: 'Antibiotics & Anti-Infectives',
+    icon: 'ShieldAlert',
+    count: 18,
+    description: 'Broad-spectrum antibacterial, antifungal, and antiviral prescription therapies.',
+    color: 'from-blue-500/10 to-indigo-500/20 text-blue-600 border-blue-200',
+  },
+  {
+    id: 'Pain Relief',
+    name: 'Pain Relief & Analgesics',
+    icon: 'Activity',
+    count: 32,
+    description: 'Anti-inflammatory, fever reducers, joint pain, migraine, and muscle spasm relief.',
+    color: 'from-amber-500/10 to-orange-500/20 text-amber-600 border-amber-200',
+  },
+  {
+    id: 'Diabetes Care',
+    name: 'Diabetes & Metabolism',
+    icon: 'Droplet',
+    count: 21,
+    description: 'Blood glucose regulators, insulin therapies, GLP-1 agonists, and monitoring aids.',
+    color: 'from-teal-500/10 to-emerald-500/20 text-teal-600 border-teal-200',
+  },
+  {
+    id: 'Dermatology',
+    name: 'Dermatology & Skin Care',
+    icon: 'Sparkles',
+    count: 29,
+    description: 'Topical treatments for eczema, acne, dermatitis, psoriasis, and wound care.',
+    color: 'from-purple-500/10 to-fuchsia-500/20 text-purple-600 border-purple-200',
+  },
+  {
+    id: 'Vitamins & Supplements',
+    name: 'Vitamins & Supplements',
+    icon: 'Apple',
+    count: 45,
+    description: 'Multivitamins, minerals, immune boosters, Omega-3s, and daily nutritional care.',
+    color: 'from-emerald-500/10 to-green-500/20 text-emerald-600 border-emerald-200',
+  },
+  {
+    id: 'Respiratory',
+    name: 'Respiratory & Pulmonology',
+    icon: 'Wind',
+    count: 19,
+    description: 'Bronchodilators, inhalers, cough syrups, antihistamines, and allergy treatments.',
+    color: 'from-cyan-500/10 to-sky-500/20 text-cyan-600 border-cyan-200',
+  },
+  {
+    id: 'Gastrointestinal',
+    name: 'Gastrointestinal & Digestion',
+    icon: 'Flame',
+    count: 27,
+    description: 'Antacids, proton-pump inhibitors, probiotics, IBS relief, and digestive enzymes.',
+    color: 'from-yellow-500/10 to-amber-500/20 text-yellow-600 border-yellow-200',
+  },
+];
